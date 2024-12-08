@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Cooper";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/fonts/CooperBT-Light.woff2") format("woff2"),
+      url("/font/CooperBT-Light.woff") format("woff"),
+      url("/font/CooperBT-Light.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Ambit-regular";
+    src: url("/fonts/Ambit-SemiBold.woff2") format("woff2"),
+      url("/fonts/Ambit-SemiBold.woff") format("woff"),
+      url("/fonts/Ambit-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Ambit-semibold";
+    src: url("/fonts/Ambit-Regular.woff2") format("woff2"),
+      url("/fonts/Ambit-Regular.woff") format("woff"),
+      url("/fonts/Ambit-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+}
